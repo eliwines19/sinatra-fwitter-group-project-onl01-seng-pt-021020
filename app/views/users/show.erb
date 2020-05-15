@@ -1,3 +1,3 @@
-<% @user.tweets.each do |x| %>
-<p><%= x.content %></p>
-<%end%>
+<% @user.tweets.each do |tweet| %>
+<li><%= tweet.content %></li>
+<% end %>
